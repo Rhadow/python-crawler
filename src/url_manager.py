@@ -1,5 +1,6 @@
 import collections
 
+
 class UrlManager(object):
     def __init__(self, initial_url):
         self.urls_to_crawl = collections.deque([initial_url])
