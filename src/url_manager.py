@@ -21,7 +21,7 @@ class UrlManager(object):
             return ''
 
     def add_urls(self, urls):
-        if urls is None or len(urls) is 0:
+        if urls is None or len(urls) == 0:
             return
         for url in urls:
             self.add_url(url)
